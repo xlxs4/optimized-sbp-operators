@@ -1,4 +1,4 @@
-function [D1,H,x,h] = D1x_10_FreeX5(N,L)
+function [D1,H,x,h] = D1_accurate_10th(N,L)
 
 % L: Domain length
 % N: Number of grid points

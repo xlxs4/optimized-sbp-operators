@@ -1,4 +1,4 @@
-function [D1,H,x,h] = D1x_12_12PointsClosure_3(N,L)
+function [D1,H,x,h] = D1_accurate_12th(N,L)
 
 % L: Domain length
 % N: Number of grid points

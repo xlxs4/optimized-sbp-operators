@@ -1,4 +1,4 @@
-function [D1,H,x,h] = D1x_10_8PointsClosure_FixX3(N,L)
+function [D1,H,x,h] = D1_minimal_10th(N,L)
 
 % L: Domain length
 % N: Number of grid points

@@ -1,4 +1,4 @@
-function [D1,H,x,h] = D1x_8_FreeX4(N,L)
+function [D1,H,x,h] = D1_accurate_8th(N,L)
 
 % L: Domain length
 % N: Number of grid points
