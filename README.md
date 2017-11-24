@@ -13,5 +13,5 @@ All sets of operators have interior accuracy of order 2p and boundary accuracy o
 # How do I use the operators?
 * Clone the repository or simply download the files
 * Start MATLAB and navigate into one of the directories, e.g. *Accurate*.
-* The call `[D1, H, x, dx] = D1_accurate(N, L, order)` requests an SBP operator of interior order of accuracy `order` with `N` grid points on an interval of length `L`. The function returns the differentiation matrix `D1`, the inner product (or *norm*) matrix `H`, the grid `x`, and the interior grid spacing `h`.
+* The call `[D1, H, x, h] = D1_accurate(N, L, order)` requests an SBP operator of interior order of accuracy `order` with `N` grid points on an interval of length `L`. The function returns the differentiation matrix `D1`, the inner product (or *norm*) matrix `H`, the grid `x`, and the interior grid spacing `h`.
 * The other kinds of operators are created analogously.
