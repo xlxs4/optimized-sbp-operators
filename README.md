@@ -6,9 +6,9 @@ There are two kinds of optimized operators: **Accurate** and **Minimal**. The Mi
 For reference we also include **Traditional** operators defined on completely equidistant grids.
 
 All sets of operators have interior accuracy of order 2p and boundary accuracy of order p. The following orders are available:
-* Traditional	: 2p = 2,4,6,8,10,12
-* Accurate   	: 2p =   4,6,8,10,12
-* Minimal    	: 2p =   4,6,8,10,12
+* Traditional: 2p = 2, 4, 6, 8, 10, 12.
+* Accurate: 2p = 4, 6, 8, 10, 12.
+* Minimal: 2p = 4, 6, 8, 10, 12.
 
 # How do I use the operators?
 * Clone the repository or simply download the files
