@@ -11,6 +11,10 @@ All sets of operators have interior accuracy of order 2p and boundary accuracy o
 + Accurate: 2p = 4, 6, 8, 10, 12.
 + Minimal: 2p = 4, 6, 8, 10, 12.
 
+The Traditional operator with 2p = 12 is due to N. Albin and J. Klarmann:
+
++ N. Albin and J. Klarmann. An algorithmic exploration of the existence of high-order summation by parts operators with diagonal norm. *J. Sci. Comput.*, 69(2):633–650, 2016, [http://dx.doi.org/10.1007/s10915-016-0211-z](http://dx.doi.org/10.1007/s10915-016-0211-z)
+
 # How do I use the operators?
 * Clone the repository or simply download the files
 * Start MATLAB and navigate into one of the directories, e.g. *Accurate*.
