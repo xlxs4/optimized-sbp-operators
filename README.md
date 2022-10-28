@@ -1,4 +1,10 @@
 # Optimized SBP operators
+
+This is a clone from [Bitbucket](https://bitbucket.org/martinalmquist/optimized_sbp_operators/src/master/), which contains the source code for [^1].
+
+[^1]: [Mattsson, K., Almquist, M., & van der Weide, E. (2018). Boundary optimized diagonal-norm SBP operators. Journal of computational physics, 374, 1261-1266.
+](https://doi.org/10.1016/j.jcp.2018.06.010)
+
 This repository contains MATLAB code for diagonal-norm summation-by-parts operators with non-uniform grids near boundaries. The operator coefficients and the grid point locations have been determined by optimizing for accuracy. This often leads to orders-of magnitudes smaller errors compared to traditional operators defined on entirely equidistant grids.
 
 There are two kinds of optimized operators: **Accurate** and **Minimal**. The Minimal operators have as few boundary points as possible before the interior central difference stencil starts. The Accurate operators were constructed to have the best possible accuracy properties. 
